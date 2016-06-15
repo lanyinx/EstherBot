@@ -13,12 +13,23 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Esther? Just say HELLO to get started.')
+            return bot.say('Salam kenal gan,..\nsaya Kadek Prabudi..')
+                .then(() => 'askName');
+        }
+    },
+    
+    askName: {
+        prompt: (bot) => bot.say('Btw..nama siapa gan?'),
+        receive: (bot, message) => {
+            const name = message.text;
+            return bot.setProp('name', name)
+                .then(() => bot.say(`Salam kenal ${name}`))
                 .then(() => 'speak');
         }
     },
+    
 
-    speak: {
+     speak: {
         receive: (bot, message) => {
 
             let upperText = message.text.trim().toUpperCase();
