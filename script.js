@@ -56,7 +56,7 @@ module.exports = new Script({
                     return Promise.resolve("speak");
                 }
 
-                if (!_.has(scriptRules, upperText)) {
+                if (!_.match(scriptRules, upperText)) {
                     return bot.say(`maksudnya?.`).then(() => 'speak');
                 }
 
