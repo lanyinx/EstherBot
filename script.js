@@ -34,7 +34,7 @@ module.exports = new Script({
 
             let upperText = message.text.trim().toUpperCase();
         
-            let matchText = upperText.match(scriptRules);
+          //  let matchText = upperText.match(scriptRules);
 
             function updateSilent() {
                 switch (upperText) {
@@ -56,11 +56,11 @@ module.exports = new Script({
                     return Promise.resolve("speak");
                 }
 
-                if (!_.has(scriptRules, matchText)) {
+                if (!_.has(scriptRules, upperText)) {
                     return bot.say(`maksudnya?.`).then(() => 'speak');
                 }
 
-                var response = scriptRules[matchText];
+                var response = scriptRules[upperText];
                 var lines = response.split('\n');
 
                 var p = Promise.resolve();
