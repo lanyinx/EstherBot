@@ -59,9 +59,9 @@ module.exports = new Script({
       //          if (!_.has(scriptRules, upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
       //          }
-                if (!scriptRules.match(upperText)) {
-                    return bot.say(`maksudnya?.`).then(() => 'speak');
-                }
+      //          if (!scriptRules.match(upperText)) {
+      //              return bot.say(`maksudnya?.`).then(() => 'speak');
+      /.          }
 
 
                 var response = scriptRules[upperText];
