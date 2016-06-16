@@ -32,11 +32,11 @@ module.exports = new Script({
      speak: {
         receive: (bot, message) => {
 
-            let upperText = message.text.trim().toUpperCase();
+            //let upperText = message.text.trim().toUpperCase();
              
-           // let upper2Text = message.text.trim().toUpperCase();
+            let upper2Text = message.text.trim().toUpperCase();
   
-           // let upperText = upper2Text.match(scriptRules);
+            let upperText = upper2Text.match(scriptRules[upper2Text]);
 
             function updateSilent() {
                 switch (upperText) {
