@@ -4,7 +4,7 @@
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
-    "HELP":"ini gan biasa ditanyain pembeli ke kita\pharga,\pkapasitas,\pberat\pcontoh harga mesin press manual\ptekanan mesin press hidrolik",
+    "HELP":"ini gan biasa ditanyain pembeli ke kita harga,kapasitas,berat\ncontoh ketik \"harga mesin press manual\"\"tekanan mesin press hidroli\".",
     "DISCONNECT": "Roger that, EstherBot is back.",
     "KABAR BAIK": "mantab gan, ane juga baik.\nbisnis gimana bos?lancarkah?",
     "LANCAR": "pantesan makin heppy aja nih bawaannya..\nbtw keluarga sehat om?",
