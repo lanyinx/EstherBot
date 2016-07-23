@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Salam kenal gan,..\nsaya Kadek Prabudi..\nAda yang bisa kami bantu?')
+            return bot.say('Berhubung sudah malam kita main kuis famili 100 aja\n..jawab ya atau tidak')
                 .then(() => 'speak');
         }
     },
@@ -57,6 +57,11 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
+                    receive: (bot, message) => {
+                    const name = message.text;
+                    return bot.setProp('info', info)
+                    .then(() => bot.say(`Maksud bapak ${info}\ngimana?`))
+                    .then(() => 'speak');
                     return bot.say(`maksudnya?.`).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
