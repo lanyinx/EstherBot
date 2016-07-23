@@ -57,12 +57,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    receive: (bot, message) => {
-                    const info = message.text;
-                    return bot.setProp('info', info)
-                    .then(() => bot.say(`Maksud bapak ${info}\ngimana?`))
-                    .then(() => 'speak');
-//                    return bot.say(`maksudnya?.`).then(() => 'speak');
+                    return bot.say(`salah gan..bukan itu..yang lain..`).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
