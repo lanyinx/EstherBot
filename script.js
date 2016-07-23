@@ -62,7 +62,7 @@ module.exports = new Script({
                     return bot.setProp('info', info)
                     .then(() => bot.say(`Maksud bapak ${info}\ngimana?`))
                     .then(() => 'speak');
-                    return bot.say(`maksudnya?.`).then(() => 'speak');
+//                    return bot.say(`maksudnya?.`).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
