@@ -58,7 +58,7 @@ module.exports = new Script({
 
                 if (!_.has(scriptRules, upperText)) {
                     receive: (bot, message) => {
-                    const name = message.text;
+                    const info = message.text;
                     return bot.setProp('info', info)
                     .then(() => bot.say(`Maksud bapak ${info}\ngimana?`))
                     .then(() => 'speak');
