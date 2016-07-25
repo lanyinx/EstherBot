@@ -57,7 +57,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Salah gan..bukan itu..\nSelain itu gan?`).then(() => 'speak');
+                    return bot.say(`Pertanyaan tidak dikenal\nKetik HELP untuk manampilkan daftar pertanyaan`).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
