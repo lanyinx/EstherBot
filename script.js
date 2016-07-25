@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Ini adalah fitur auto answer\nKetik HELP untuk menampilkan FAQ\nKetik BOT OFF untuk menonaktifkan fitur\nKetik BOT ON mengaktifkan kembali')
+            return bot.say('Halo..ini adalah fitur auto answer yang akan menjawab pertayaan Anda\nDaftar pertanyaan? %[FAQ](postback:help)\nChat dengan CS? %[BOT OFF](postback:bot off))')
                 .then(() => 'speak');
         }
     },
@@ -57,7 +57,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Pertanyaan tidak dikenal\nKetik HELP untuk manampilkan daftar pertanyaan`).then(() => 'speak');
+                    return bot.say(`Pertanyaan tidak dikenal\n %[HELP](postback:HELP) %[BOT OFF](postback:BOT OFF) `).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
