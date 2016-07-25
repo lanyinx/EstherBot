@@ -3,7 +3,7 @@
 "HELLO": "Hey, I'm so glad you set EstherBot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
 "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
 "I LOVE YOU": "Awh, shucks! I love you too!",
-"BOT OFF": "BOT MODE SET OFF\n ketik BOT ON untuk kembali mengaktifkan BOT\nHarap menunggu. Saya segera menghubungi Bapak/Ibu.",
+"BOT OFF": "BOT MODE SET OFF\nHarap menunggu. Saya segera menghubungi Agan. Atau ketik BOT ON untuk kembali mengaktifkan BOT",
 "BOT ON":"BOT MODE SET ON",
 "TEST":"Monggo langsung test mesin kami diworkshop..cocok langsung pesan gan..",
 "HELP2":"Ini gan pertanyan yang biasa ditanyain pembeli ke kita: harga, kapasitas, berat, spesifikasi\nContoh ketik \"harga mesin press manual\" atau ketik \"tekanan mesin press hidrolik\".",
