@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Halo..ini adalah fitur auto answer yang akan menjawab pertayaan Anda\n%[HELP](postback:HELP2)\n%[BOT OFF](postback:bot_off)')
+            return bot.say('Halo..ini adalah fitur auto answer yang akan menjawab pertayaan Anda\n%[HELP](postback:HELP)\n%[BOT OFF](postback:bot_off)')
                 .then(() => 'speak');
         }
     },
@@ -57,7 +57,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Pertanyaan tidak dikenal\n %[HELP](postback:HELP2) %[BOT OFF](postback:BOT_OFF) `).then(() => 'speak');
+                    return bot.say(`Pertanyaan tidak dikenal\n %[HELP](postback:HELP) %[BOT OFF](postback:BOT_OFF) `).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
