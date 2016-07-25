@@ -11,6 +11,7 @@
 "KAPASITAS":"Yang mana gan?\n%[KAPASITAS MESIN PRESS MANUAL](postback:kapasitas_mesin_press_manual) %[KAPASITAS MESIN PRESS HIDROLIK](postback:KAPASITAS_MESIN_PRESS_HIDROLIK)",
 "HARGA MESIN PRESS MANUAL":"Mesin press yang manual sekarang jadi Rp. 2.050.000,-",
 "HARGA MESIN PRESS HIDROLIK":"Pilih tipenya gan?\n%[Harga 5 Ton](postback:harga_mesin_press_hidrolik_5_ton) %[Harga 7 Ton](postback:harga_mesin_press_7_ton) %[Harga 14 Ton](postback:harga_mesin_press_14_ton)",
+"HARGA 5 TON": "Harga mesin relatif tergantung spesifikasi komponen hidrolik yang dipakai\nDownload penawaran harga untuk mesin press tipe ini %[Download](http://http://googledrive.com/host/0B7F1-RQvEM6qanI5UktCSlpQcVU/penawaran-mesin-press-5-ton.pdf)",
 "KAPASITAS MESIN PRESS MANUAL":"Yang manual masih kecil pak kaasitasnya..soalnya neken plunger masih pakai kekuatan tangan..paling 300 sampai 500 Newton tergantung yang nekan",
 "KAPASITAS MESIN PRESS HIDROLIK":"Mesin press yang hidrolik ada 5ton, 7ton, sama 14ton tekanan silindernya",
 "BERAT MESIN PRESS MANUAL":"Berat apa dulu nih pak?Berat mesin apa berat bale press nya..Berat mesin sih paling 60 kiloan pak..\nKalau berat bale press nya rata2 30 kiloan kalau untuk ngepress kardus",
