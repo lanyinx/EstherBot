@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Halo..ini adalah fitur auto answer yang akan menjawab pertayaan Anda\n%[FAQ](postback:help)\n%[BOT OFF](postback:bot_off)')
+            return bot.say('Halo..ini adalah fitur auto answer yang akan menjawab pertayaan Anda\n%[HELP](postback:HELP)\n%[BOT OFF](postback:bot_off)')
                 .then(() => 'speak');
         }
     },
