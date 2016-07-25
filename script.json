@@ -8,9 +8,15 @@
 "HELP2":"Ini gan pertanyan yang biasa ditanyain pembeli ke kita: harga, kapasitas, berat, spesifikasi\nContoh ketik \"harga mesin press manual\" atau ketik \"tekanan mesin press hidrolik\".",
 "HELP":"Ini adalah daftar pertanyaan pada umumnya\n%[HARGA](postback:harga) %[KAPASITAS](postback:kapasitas) %[BERAT](postback:berat) %[DIMENSI](postback:dimensi) %[SPESIFIKASI](postback:spesifikasi)",
 "HARGA":"Yang mana gan?\n%[HARGA MESIN PRESS MANUAL](postback:harga_mesin_press_manual) %[HARGA MESIN PRESS HIDROLIK](postback:harga_mesin_press_hidrolik)",
-"KAPASITAS":"%[MANUAL](postback:kapasitas_mesin_press_manual)\n%[HIDROLIK](postback:KAPASITAS_MESIN_PRESS_HIDROLIK)",
-"HARGA MESIN PRESS MANUAL":"Mesin press yang manual sekarang jadi Rp. 2.050.000,- \nNo Hp berapa pak?lanjut di WA aja ngobrolnya biar enak..",
-"HARGA MESIN PRESS HIDROLIK":"Mesin press hdrolik, harga tergantung kapasitas pak, ada yang 35jt ada yang 40jt ada yang 50jt\nkalau boleh tau untuk ngpress apa ya pak?\nSoalnya kalau untuk PET perlu tekanan yang besar..disesuaikan dengan kebutuhan aja pak mesinnya..\nada no HP gak pak?",
+"KAPASITAS":"Yang mana gan?\n%[KAPASITAS MESIN PRESS MANUAL](postback:kapasitas_mesin_press_manual) %[KAPASITAS MESIN PRESS HIDROLIK](postback:KAPASITAS_MESIN_PRESS_HIDROLIK)",
+"HARGA MESIN PRESS MANUAL":"Mesin press yang manual sekarang jadi Rp. 2.050.000,-",
+"HARGA MESIN PRESS HIDROLIK":"Pilih tipenya gan?\n%[Harga 5 Ton](postback:harga_mesin_press_hidrolik_5_ton) %[Harga 7 Ton](postback:harga_mesin_press_7_ton) %[Harga 14 Ton](postback:harga_mesin_press_14_ton)",
+"HARGA 5 TON":"Untuk harga tergantung spesifikasi pak..silahkan download penawaran dari kami\n%[PENAWARAN](http://googledrive.com/host/0B7F1-RQvEM6qanI5UktCSlpQcVU/
+penawaran-mesin-press-5-ton.pdf)",
+"HARGA 7 TON":"Untuk harga tergantung spesifikasi pak..silahkan download penawaran dari kami\n%[PENAWARAN](http://googledrive.com/host/0B7F1-RQvEM6qanI5UktCSlpQcVU/
+penawaran-mesin-press-7-ton.pdf)",
+"HARGA 14 TON":"Untuk harga tergantung spesifikasi pak..silahkan download penawaran dari kami\n%[PENAWARAN](http://googledrive.com/host/0B7F1-RQvEM6qanI5UktCSlpQcVU/
+penawaran-mesin-press-14-ton.pdf)",
 "KAPASITAS MESIN PRESS MANUAL":"Yang manual masih kecil pak kaasitasnya..soalnya neken plunger masih pakai kekuatan tangan..paling 300 sampai 500 Newton tergantung yang nekan",
 "KAPASITAS MESIN PRESS HIDROLIK":"Mesin press yang hidrolik ada 5ton, 7ton, sama 14ton tekanan silindernya",
 "BERAT MESIN PRESS MANUAL":"Berat apa dulu nih pak?Berat mesin apa berat bale press nya..Berat mesin sih paling 60 kiloan pak..\nKalau berat bale press nya rata2 30 kiloan kalau untuk ngepress kardus",
