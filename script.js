@@ -59,7 +59,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(``).then(() => 'speak');
+                    return bot.say('Tunggu sebentar pak..`).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
