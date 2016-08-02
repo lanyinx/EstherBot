@@ -13,9 +13,9 @@ module.exports = new Script({
 
     start: {
         receive: (bot, message) => {
-            const tanya = message.text;
-            return bot.setProp('tanya', tanya)
-                .then(() => bot.say('Salam kenal saya Kadek Prabudi.\nGimana tadi pak ${tanya} ya?'))
+            const name = message.text;
+            return bot.setProp('name', name)
+                .then(() => bot.say('Salam kenal saya Kadek Prabudi.\nTunggu sebentar pak ya..'))
                 .then(() => 'speak');
         }
     },
