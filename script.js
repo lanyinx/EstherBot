@@ -59,7 +59,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Pertanyaan tidak dikenal\n %[HELP](postback:HELP) %[BOT OFF](postback:BOT_OFF) `).then(() => 'speak');
+                    return bot.say(``).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
