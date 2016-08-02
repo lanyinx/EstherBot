@@ -42,6 +42,8 @@ module.exports = new Script({
                 switch (upperText) {
                     case "BOT OFF":
                         return bot.setProp("silent", true);
+                    case "maksudnya?":
+                        return bot.setProp("silent", true);
                     case "BOT ON":
                         return bot.setProp("silent", false);
                     default:
@@ -59,7 +61,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(` `).then(() => 'speak');
+                    return bot.say(`maksudnya?`).then(() => 'speak');
                 }
       //          if (!scriptRules.match(upperText)) {
       //              return bot.say(`maksudnya?.`).then(() => 'speak');
